@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  @@include('html/_head.htm',{ "title":"HomePage" })
+
+  <body>
+    <div class="wrapper">
+      @@include('html/_header.htm',{})
+      <main class="page">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__info">
+              <h1 class="hero__title">
+                Interior design for a <span>comfortable life</span>
+              </h1>
+              <h2 class="hero__subtitle">Crafting Your Perfect Spaces</h2>
+              <div data-da=".hero__container,991" class="hero__info-box">
+                <p class="hero__info-text">
+                  We will make a project according to your budget and with a
+                  guarantee of deadlines
+                </p>
+                <a class="hero__info-link btn" href="#!">
+                  Get a free consultation
+                </a>
+              </div>
+            </div>
+            <div class="hero__slider swiper">
+              <div class="hero__wrapper swiper-wrapper">
+                <div class="hero__slide swiper-slide">
+                  <div class="hero__slide-img">
+                    <img
+                      src="@img/hero/1.jpg"
+                      alt="Interior in Hi-Tech style"
+                    />
+                  </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                  <div class="hero__slide-img">
+                    <img
+                      src="@img/hero/2.jpg"
+                      alt="Interior in Hi-Tech style"
+                    />
+                  </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                  <div class="hero__slide-img">
+                    <img
+                      src="@img/hero/3.jpg"
+                      alt="Interior in Hi-Tech style"
+                    />
+                  </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                  <div class="hero__slide-img">
+                    <img
+                      src="@img/hero/4.jpg"
+                      alt="Interior in Hi-Tech style"
+                    />
+                  </div>
+                </div>
+                <div class="hero__slide swiper-slide">
+                  <div class="hero__slide-img">
+                    <img
+                      src="@img/hero/5.jpg"
+                      alt="Interior in Hi-Tech style"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="hero__slide-navigation">
+                <div class="hero__slide-pagination-box">
+                  <button type="button" class="swiper-button-prev"></button>
+                  <div class="swiper-pagination"></div>
+                  <button type="button" class="swiper-button-next"></button>
+                </div>
+                <p class="hero__slider-description">
+                  Interior in Hi-Tech style
+                </p>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services">
+          <div class="services__container">
+            <div class="services__info-item">
+              <h2 class="services__title title">Our services</h2>
+              <ul class="services__info-list">
+                <li class="services__list-item">
+                  <h3 class="services__info-title">Interior design</h3>
+                  <p class="services__info-text">
+                    We create individual interior design of your apartments and
+                    houses
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <h3 class="services__info-title">Author supervision</h3>
+                  <p class="services__info-text">
+                    Includes visits to the object, monitoring the compliance of
+                    the real picture with the design layout
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <h3 class="services__info-title">Selection of furniture</h3>
+                  <p class="services__info-text">
+                    All these types of furniture have their own style, color, so
+                    it is important to entrust the choice of furniture to
+                    professionals
+                  </p>
+                </li>
+                <li class="services__list-item">
+                  <h3 class="services__info-title">3D visualization</h3>
+                  <p class="services__info-text">
+                    A photo-realistic image of the interior of your home. With
+                    the help of 3D programs, we can present a model of your home
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="services__img-item">
+              <p
+                data-da=".services__info-item,991,1"
+                class="services__img-item-text"
+              >
+                Our team takes into account the wishes of the client, selects a
+                style and competently approaches the performance of work.
+              </p>
+              <div class="services__img">
+                <picture>
+                  <source
+                    srcset="@img/services/1-wide.jpg"
+                    media="(max-width: 991px)"
+                  />
+                  <img src="@img/services/1.jpg" alt="Interior design" />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <div class="projects__container">
+            <h2 class="projects__title title title--black">our projects</h2>
+            <div data-tabs class="projects__tabs swiper">
+              <ul
+                data-tabs-titles
+                class="projects__tabs-navigation swiper-wrapper"
+              >
+                <li
+                  class="projects__tabs-project tabs-project _tab-active swiper-slide"
+                >
+                  <div class="tabs-project__img">
+                    <span>Kitchen</span>
+                    <img src="@img/projects/tabs/1.jpg" alt="Kitchen" />
+                  </div>
+                  <p class="tabs-project__text">Apartment</p>
+                </li>
+                <li class="projects__tabs-project tabs-project swiper-slide">
+                  <div class="tabs-project__img">
+                    <span>Rest area</span>
+                    <img src="@img/projects/tabs/2.jpg" alt="Rest area" />
+                  </div>
+                  <p class="tabs-project__text">Complex for rest</p>
+                </li>
+                <li class="projects__tabs-project tabs-project swiper-slide">
+                  <div class="tabs-project__img">
+                    <span>Swimming pool</span>
+                    <img src="@img/projects/tabs/3.jpg" alt="Swimming pool" />
+                  </div>
+                  <p class="tabs-project__text">Private house</p>
+                </li>
+                <li class="projects__tabs-project tabs-project swiper-slide">
+                  <div class="tabs-project__img">
+                    <span>Kitchen</span>
+                    <img src="@img/projects/tabs/4.jpg" alt="Kitchen" />
+                  </div>
+                  <p class="tabs-project__text">Apartment</p>
+                </li>
+                <li class="projects__tabs-project tabs-project swiper-slide">
+                  <div class="tabs-project__img">
+                    <span>Office</span>
+                    <img src="@img/projects/tabs/5.jpg" alt="Office" />
+                  </div>
+                  <p class="tabs-project__text">Apartment</p>
+                </li>
+              </ul>
+
+              <div data-tabs-body class="projects__tabs-content">
+                <div class="projects__tabs-body">
+                  <div class="projects__tabs-body-slider swiper">
+                    <div class="projects__tabs-info">
+                      <span class="projects__tabs-count">01</span>
+                      <div class="projects__tabs-info-box">
+                        <p class="projects__tabs-address">
+                          Kyiv,<br />
+                          I.Mazepy street
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>Area</span>
+                          80 sq.m.
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>For whom:</span>
+                          Apartment for a young couple with a child
+                        </p>
+                      </div>
+                      <a class="projects__tabs-link" href="#!">More details</a>
+                    </div>
+                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/1.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Bathroom</span>
+                          <img src="@img/projects/2.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Children room</span>
+                          <img src="@img/projects/3.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/1.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects__tabs-body-box">
+                      <button
+                        type="button"
+                        class="swiper-button-prev swiper-button-prev"
+                      ></button>
+                      <button
+                        type="button"
+                        class="swiper-button-next swiper-button-next"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects__tabs-body">
+                  <div class="projects__tabs-body-slider swiper">
+                    <div class="projects__tabs-info">
+                      <span class="projects__tabs-count">02</span>
+                      <div class="projects__tabs-info-box">
+                        <p class="projects__tabs-address">
+                          Kyiv,<br />
+                          I.Mazepy street
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>Area</span>
+                          40 000 sq.m.
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>For whom:</span>
+                          Complex for rest, entertainment, sports and health
+                        </p>
+                      </div>
+                      <a class="projects__tabs-link" href="#!">More details</a>
+                    </div>
+                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Rest area</span>
+                          <img src="@img/projects/4.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Room</span>
+                          <img src="@img/projects/5.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/6.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Rest area</span>
+                          <img src="@img/projects/4.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects__tabs-body-box">
+                      <button
+                        type="button"
+                        class="swiper-button-prev swiper-button-prev"
+                      ></button>
+                      <button
+                        type="button"
+                        class="swiper-button-next swiper-button-next"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects__tabs-body">
+                  <div class="projects__tabs-body-slider swiper">
+                    <div class="projects__tabs-info">
+                      <span class="projects__tabs-count">03</span>
+                      <div class="projects__tabs-info-box">
+                        <p class="projects__tabs-address">
+                          Lviv,<br />
+                          Kozatska Street
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>Area</span>
+                          200 sq.m.
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>For whom:</span>
+                          A private house for a family
+                        </p>
+                      </div>
+                      <a class="projects__tabs-link" href="#!">More details</a>
+                    </div>
+                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Pool</span>
+                          <img src="@img/projects/7.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Bedroom</span>
+                          <img src="@img/projects/8.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/9.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Pool</span>
+                          <img src="@img/projects/7.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects__tabs-body-box">
+                      <button
+                        type="button"
+                        class="swiper-button-prev swiper-button-prev"
+                      ></button>
+                      <button
+                        type="button"
+                        class="swiper-button-next swiper-button-next"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects__tabs-body">
+                  <div class="projects__tabs-body-slider swiper">
+                    <div class="projects__tabs-info">
+                      <span class="projects__tabs-count">04</span>
+                      <div class="projects__tabs-info-box">
+                        <p class="projects__tabs-address">
+                          Lviv,<br />
+                          Mazepa Street
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>Area</span>
+                          80 sq.m.
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>For whom:</span>
+                          A private apartment
+                        </p>
+                      </div>
+                      <a class="projects__tabs-link" href="#!">More details</a>
+                    </div>
+                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/10.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Children</span>
+                          <img src="@img/projects/11.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Living room</span>
+                          <img src="@img/projects/12.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/10.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects__tabs-body-box">
+                      <button
+                        type="button"
+                        class="swiper-button-prev swiper-button-prev"
+                      ></button>
+                      <button
+                        type="button"
+                        class="swiper-button-next swiper-button-next"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="projects__tabs-body">
+                  <div class="projects__tabs-body-slider swiper">
+                    <div class="projects__tabs-info">
+                      <span class="projects__tabs-count">05</span>
+                      <div class="projects__tabs-info-box">
+                        <p class="projects__tabs-address">
+                          Kyiv,<br />
+                          Mazepa Street
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>Area</span>
+                          120 sq.m.
+                        </p>
+                        <p class="projects__tabs-text">
+                          <span>For whom:</span>
+                          Office design and renovation
+                        </p>
+                      </div>
+                      <a class="projects__tabs-link" href="#!">More details</a>
+                    </div>
+                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Office</span>
+                          <img src="@img/projects/13.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Room</span>
+                          <img src="@img/projects/14.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Kitchen</span>
+                          <img src="@img/projects/15.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                      <div class="projects__tabs-body-slide swiper-slide">
+                        <div class="projects__tabs-body-img">
+                          <span>Office</span>
+                          <img src="@img/projects/13.jpg" alt="Kitchen" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="projects__tabs-body-box">
+                      <button
+                        type="button"
+                        class="swiper-button-prev swiper-button-prev"
+                      ></button>
+                      <button
+                        type="button"
+                        class="swiper-button-next swiper-button-next"
+                      ></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="projects__tabs-body-box projects__tabs-body-box--main"
+              >
+                <button
+                  type="button"
+                  class="projects__button-prev swiper-button-prev"
+                ></button>
+                <button
+                  type="button"
+                  class="projects__button-next swiper-button-next"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('html/_footer.htm',{})
+    </div>
+  </body>
+</html>

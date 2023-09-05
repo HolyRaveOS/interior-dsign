@@ -1,0 +1,93 @@
+// Заголовки, загальні БЕМ блоки та інше...
+
+.logo {}
+
+.title {
+	color: var(--white-color);
+	font-family: 'Alegreya';
+	font-size: toRem(36);
+	font-style: italic;
+	text-transform: uppercase;
+	margin-bottom: toRem(40);
+
+	&--black {
+		color: var(--main-black);
+	}
+}
+
+.btn {
+	border-radius: toRem(10);
+	background: var(--main-color);
+	box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.25);
+	color: var(--white-color);
+	font-size: toRem(16);
+	text-transform: uppercase;
+	padding: toRem(25) toRem(30);
+	display: inline-block;
+	transition: background-color 0.3s;
+
+	&:hover {
+		background-color: #333;
+	}
+}
+
+.swiper-pagination.swiper-pagination-fraction.swiper-pagination-horizontal {
+	font-size: toRem(16);
+	display: flex;
+	align-items: center;
+}
+
+.swiper-pagination-current {
+	font-size: toRem(20);
+}
+
+.hover {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+
+	&::after {
+		content: '';
+		width: 95%;
+		transform: scale(0);
+		height: toRem(1);
+		background-color: var(--main-color);
+		background-color: #000;
+		transition: transform 0.3s;
+	}
+
+	&:hover {
+		&::after {
+			transform: scale(1);
+		}
+	}
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+	background-image: url('@img/arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: toRem(7);
+	width: toRem(40);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&::before {
+		content: '';
+		width: 200%;
+		height: 300%;
+		position: absolute;
+	}
+}
+
+.swiper-button-prev {
+	transform: rotate(180deg);
+}
+
+.phone {}
