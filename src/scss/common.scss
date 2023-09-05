@@ -9,6 +9,7 @@
 	font-style: italic;
 	text-transform: uppercase;
 	margin-bottom: toRem(40);
+	@include adaptiveValue("margin-bottom", 40, 20);
 
 	&--black {
 		color: var(--main-black);
@@ -25,6 +26,8 @@
 	padding: toRem(25) toRem(30);
 	display: inline-block;
 	transition: background-color 0.3s;
+	min-width: toRem(276);
+	text-align: center;
 
 	&:hover {
 		background-color: #333;
