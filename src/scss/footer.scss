@@ -27,6 +27,7 @@
 	}
 
 	&__menu-item {
+		width: fit-content;
 
 		&:first-child {
 			margin-top: toRem(-10);

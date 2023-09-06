@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header__container">
-    <a href="#!" class="logo">
+    <a data-goto-header data-goto=".hero" href="#hero" class="logo">
       <img src="@img/logo.svg" alt="logo" />
     </a>
     <div class="header__menu menu">
@@ -11,19 +11,33 @@
       <nav class="menu__body">
         <ul class="menu__list">
           <li class="menu__item">
-            <a href="#!" class="menu__link hover">Services</a>
+            <a
+              data-goto=".services"
+              data-goto-top="110"
+              href="#services"
+              class="menu__link hover"
+              >Services</a
+            >
           </li>
           <li class="menu__item">
-            <a href="#!" class="menu__link hover">projects</a>
+            <a href="#projects" data-goto=".projects" class="menu__link hover"
+              >Projects</a
+            >
           </li>
           <li class="menu__item">
-            <a href="#!" class="menu__link hover">prices</a>
+            <a href="#prices" data-goto=".prices" class="menu__link hover"
+              >Prices</a
+            >
           </li>
           <li class="menu__item">
-            <a href="#!" class="menu__link hover">about us</a>
+            <a href="#about" data-goto=".about" class="menu__link hover"
+              >About us</a
+            >
           </li>
           <li class="menu__item">
-            <a href="#!" class="menu__link hover">contacts</a>
+            <a href="#contacts" data-goto=".contacts" class="menu__link hover"
+              >Contacts</a
+            >
           </li>
         </ul>
       </nav>

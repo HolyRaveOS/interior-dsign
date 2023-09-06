@@ -1,3 +1,16 @@
+.page {
+	padding-top: toRem(116);
+
+	@media (max-width:$mobile) {
+		padding-top: toRem(84);
+	}
+
+	@media (max-width:$mobileSmall) {
+		padding-top: toRem(64);
+	}
+}
+
+//========================================================================
 .hero {
 	@include adaptiveValue("padding-bottom", $padding-big, $padding-small );
 
@@ -889,6 +902,7 @@
 	&__spollers-item {
 		position: relative;
 		padding-right: toRem(35);
+		cursor: pointer;
 
 		&:not(:last-child) {
 			@include adaptiveValue("margin-bottom", 30, 10);
