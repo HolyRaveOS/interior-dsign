@@ -1,8 +1,5 @@
 // Заголовки, загальні БЕМ блоки та інше...
 
-
-.logo {}
-
 .title {
 	color: var(--white-color);
 	font-family: 'Alegreya';
@@ -57,7 +54,6 @@
 		transform: scale(0);
 		height: toRem(1);
 		background-color: var(--main-color);
-		background-color: #000;
 		transition: transform 0.3s;
 	}
 
@@ -67,7 +63,6 @@
 		}
 	}
 }
-
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -93,5 +88,3 @@
 .swiper-button-prev {
 	transform: rotate(180deg);
 }
-
-.phone {}
