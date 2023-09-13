@@ -8,7 +8,7 @@
       <main class="page">
         <section class="hero">
           <div class="hero__container">
-            <div class="hero__info">
+            <div class="hero__info wow animate__fadeInLeft">
               <h1 class="hero__title">
                 Interior design for a <span>comfortable life</span>
               </h1>
@@ -23,7 +23,7 @@
                 </a>
               </div>
             </div>
-            <div class="hero__slider swiper">
+            <div class="hero__slider swiper wow animate__fadeInRight">
               <div class="hero__wrapper swiper-wrapper">
                 <div class="hero__slide swiper-slide">
                   <div class="hero__slide-img">
@@ -83,23 +83,34 @@
         <section class="services">
           <div class="services__container" id="services">
             <div class="services__info-item">
-              <h2 class="services__title title">Our services</h2>
+              <h2 class="services__title title wow animate__fadeInLeft">
+                Our services
+              </h2>
               <ul class="services__info-list">
-                <li class="services__list-item">
+                <li
+                  data-wow-offset="200"
+                  class="services__list-item wow animate__flipInX"
+                >
                   <h3 class="services__info-title">Interior design</h3>
                   <p class="services__info-text">
                     We create individual interior design of your apartments and
                     houses
                   </p>
                 </li>
-                <li class="services__list-item">
+                <li
+                  data-wow-offset="200"
+                  class="services__list-item wow animate__flipInX"
+                >
                   <h3 class="services__info-title">Author supervision</h3>
                   <p class="services__info-text">
                     Includes visits to the object, monitoring the compliance of
                     the real picture with the design layout
                   </p>
                 </li>
-                <li class="services__list-item">
+                <li
+                  data-wow-offset="200"
+                  class="services__list-item wow animate__flipInX"
+                >
                   <h3 class="services__info-title">Selection of furniture</h3>
                   <p class="services__info-text">
                     All these types of furniture have their own style, color, so
@@ -107,7 +118,10 @@
                     professionals
                   </p>
                 </li>
-                <li class="services__list-item">
+                <li
+                  data-wow-offset="200"
+                  class="services__list-item wow animate__flipInX"
+                >
                   <h3 class="services__info-title">3D visualization</h3>
                   <p class="services__info-text">
                     A photo-realistic image of the interior of your home. With
@@ -116,7 +130,10 @@
                 </li>
               </ul>
             </div>
-            <div class="services__img-item">
+            <div
+              data-wow-offset="200"
+              class="services__img-item wow animate__fadeInRight"
+            >
               <p
                 data-da=".services__info-item,991,1"
                 class="services__img-item-text"
@@ -138,11 +155,18 @@
         </section>
         <section class="projects" id="projects">
           <div class="projects__container">
-            <h2 class="projects__title title title--black">our projects</h2>
+            <h2
+              data-wow-offset="200"
+              class="projects__title title title--black wow animate__fadeInLeft"
+            >
+              our projects
+            </h2>
             <div data-tabs class="projects__tabs swiper">
               <ul
+                data-wow-offset="150"
+                data-wow-duration="2s"
                 data-tabs-titles
-                class="projects__tabs-navigation swiper-wrapper"
+                class="projects__tabs-navigation swiper-wrapper wow animate__fadeIn"
               >
                 <li
                   class="projects__tabs-project tabs-project _tab-active swiper-slide"
@@ -185,7 +209,10 @@
               <div data-tabs-body class="projects__tabs-content">
                 <div class="projects__tabs-body">
                   <div class="projects__tabs-body-slider swiper">
-                    <div class="projects__tabs-info">
+                    <div
+                      data-wow-offset="200"
+                      class="projects__tabs-info wow animate__fadeIn"
+                    >
                       <span class="projects__tabs-count">01</span>
                       <div class="projects__tabs-info-box">
                         <p class="projects__tabs-address">
@@ -203,7 +230,10 @@
                       </div>
                       <a class="projects__tabs-link" href="#!">More details</a>
                     </div>
-                    <div class="projects__tabs-body-wrapper swiper-wrapper">
+                    <div
+                      data-wow-offset="200"
+                      class="projects__tabs-body-wrapper swiper-wrapper wow animate__fadeInRight"
+                    >
                       <div class="projects__tabs-body-slide swiper-slide">
                         <div class="projects__tabs-body-img">
                           <span>Kitchen</span>
@@ -491,10 +521,19 @@
         </section>
         <section class="stages">
           <div class="stages__container">
-            <h2 class="stages__title title">work stages</h2>
+            <h2
+              data-wow-offset="200"
+              class="stages__title title wow animate__fadeInLeft"
+            >
+              work stages
+            </h2>
             <div class="stages__items">
               <div class="stages__info">
-                <ul class="stages__info-list">
+                <ul
+                  data-wow-offset="200"
+                  data-wow-delay="0.1s"
+                  class="stages__info-list wow animate__fadeInLeft"
+                >
                   <li class="stages__info-item">
                     <h3 class="stages__info-title">Discussion</h3>
                     <p class="stages__info-text">
@@ -535,7 +574,10 @@
                   </li>
                 </ul>
               </div>
-              <div class="stages__img">
+              <div
+                data-wow-offset="200"
+                class="stages__img wow animate__fadeInRight"
+              >
                 <picture>
                   <source
                     srcset="@img/stages/1-wide.jpg"
@@ -549,9 +591,18 @@
         </section>
         <section class="prices" id="prices">
           <div class="prices__container">
-            <h2 class="prices__title title title--black">prices</h2>
+            <h2
+              data-wow-offset="300"
+              class="prices__title title title--black wow animate__fadeInLeft"
+            >
+              prices
+            </h2>
             <div class="prices__items">
-              <div class="prices__item">
+              <div
+                data-wow-offset="300"
+                data-wow-duration="1s"
+                class="prices__item wow animate__fadeIn"
+              >
                 <h3 class="prices__item-title">Tariff 1</h3>
                 <p class="prices__item-subtitle">“Standard”</p>
                 <ul class="prices__item-list">
@@ -587,7 +638,12 @@
                   <span class="prices__item-measurement">m²</span>
                 </div>
               </div>
-              <div class="prices__item">
+              <div
+                data-wow-delay="0.1s"
+                data-wow-offset="300"
+                data-wow-duration="1s"
+                class="prices__item wow animate__fadeIn"
+              >
                 <h3 class="prices__item-title">Tariff 2</h3>
                 <p class="prices__item-subtitle">“Expanded”</p>
                 <ul class="prices__item-list">
@@ -636,7 +692,12 @@
                   <span class="prices__item-measurement">m²</span>
                 </div>
               </div>
-              <div class="prices__item">
+              <div
+                data-wow-delay="0.2s"
+                data-wow-offset="300"
+                data-wow-duration="1s"
+                class="prices__item wow animate__fadeIn"
+              >
                 <h3 class="prices__item-title">Tariff 3</h3>
                 <p class="prices__item-subtitle">“All inclusive”</p>
                 <ul class="prices__item-list">
@@ -699,9 +760,18 @@
         </section>
         <section class="about" id="about">
           <div class="about__container">
-            <h2 class="about__title title title--black">About us</h2>
+            <h2
+              data-wow-offset="200"
+              class="about__title title title--black wow animate__fadeInLeft"
+            >
+              About us
+            </h2>
             <div class="about__items">
-              <div class="about__info">
+              <div
+                data-wow-delay="0.25s"
+                data-wow-offset="200"
+                class="about__info wow animate__fadeInLeft"
+              >
                 <div data-da=".about__container,767,1" class="about__info-box">
                   <h3 class="about__info-title">DesignCraft Studio</h3>
                   <p class="about__info-subtitle">Save your time and money</p>
@@ -743,7 +813,11 @@
                   >Get a free consultation
                 </a>
               </div>
-              <div class="about__img">
+              <div
+                data-wow-delay="0.25s"
+                data-wow-offset="200"
+                class="about__img wow animate__fadeInRight"
+              >
                 <picture>
                   <source
                     srcset="@img/about/1-wide.jpg"
@@ -757,8 +831,17 @@
         </section>
         <section class="faq">
           <div class="faq__container">
-            <h2 class="faq__title title">FAQ</h2>
-            <div data-spollers class="faq__spollers">
+            <h2
+              data-wow-offset="200"
+              class="faq__title title wow animate__fadeInLeft"
+            >
+              FAQ
+            </h2>
+            <div
+              data-wow-offset="200"
+              data-spollers
+              class="faq__spollers wow animate__flipInX"
+            >
               <div class="faq__spollers-left-box">
                 <details class="faq__spollers-item">
                   <summary data-spoller-close class="faq__spollers-title">
@@ -824,7 +907,10 @@
         <section class="consultation">
           <div class="consultation__container">
             <div class="consultation__items">
-              <div class="consultation__item">
+              <div
+                class="consultation__item wow animate__fadeInLeft"
+                data-wow-offset="200"
+              >
                 <h2 class="consultation__item-title">
                   Do you want a free consultation and calculation?
                 </h2>
@@ -858,7 +944,10 @@
                   >Or write to us in messenger
                 </a>
               </div>
-              <div class="consultation__img">
+              <div
+                data-wow-offset="200"
+                class="consultation__img wow animate__fadeInRight"
+              >
                 <img src="@img/consultation/1.jpg" alt="Bedroom" />
               </div>
             </div>
@@ -866,12 +955,21 @@
         </section>
         <section class="contacts" id="contacnts">
           <div class="contacts__container">
-            <h2 class="contacts__title title title--black">Contacts</h2>
+            <h2
+              data-wow-offset="200"
+              class="contacts__title title title--black wow animate__fadeInLeft"
+            >
+              Contacts
+            </h2>
             <p class="contacts__text">
               Visit the <span>"DesignCraft"</span> studio today, and we will be
               happy to help you create a special world in your life!
             </p>
-            <div class="contacts__items">
+            <div
+              data-wow-duration="1s"
+              data-wow-offset="200"
+              class="contacts__items wow animate__fadeIn"
+            >
               <div class="contacts__map">
                 <img src="@img/contacts/map.jpg" alt="Map" />
               </div>
@@ -908,5 +1006,8 @@
       </main>
       @@include('html/_footer.htm',{})
     </div>
+    <script src="
+https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js
+"></script>
   </body>
 </html>
